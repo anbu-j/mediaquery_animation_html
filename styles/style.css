@@ -1,0 +1,26 @@
+.nav{
+    width:100vw;
+    height:10vh;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    animation: changecolor 5s infinite;
+}
+.nav-item{
+    border: red solid 1px;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+@keyframes changecolor{
+    0%{
+    background-color:green;
+    }
+50%{background-color: aqua;
+}
+100%{
+    background-color: red;
+}
+}

@@ -1,0 +1,10 @@
+@media(
+    max-width:650px | {
+        .nav{
+            display: block;
+            background-color : salmon;
+            color: seashell;
+            height: 250vh;
+        }
+
+    }
